@@ -11,13 +11,14 @@ license = "MIT"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-simple_logger = "1.13.0"
-log = "0.4.14"
-futures = "0.3.0"
+simple_logger = "5.2.0"
+log = "0.4.34"
+futures = "0.3.34"
 async-std = {version = "1" , features = ["attributes"]}
-console = "0.15.0"
-tabled = "0.3.0"
-chrono = "0.4.19"
-path-absolutize = "3.0.11"
-md-5 = "0.9.1"
-indicatif = "0.17.0"
+console = "0.16.6"
+tabled = "0.22.0"
+chrono = "0.4.45"
+path-absolutize = "4.0.1"
+md-5 = "0.11.0"
+indicatif = "0.18.6"
+
